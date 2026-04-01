@@ -7,6 +7,9 @@ import Cart from "./components/cart/Cart";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Steps from "./components/steps/Steps";
+import PricingCard from "./components/pricingCard/PricingCard";
+import Workflow from "./components/workflow/Workflow";
+
 
 const App = () => {
   const [cards, setCards] = useState([]);
@@ -92,6 +95,8 @@ const App = () => {
         </div>
       </Suspense>
       <Steps/>
+      <PricingCard/>
+   <Workflow/>
     </div>
   );
 };
