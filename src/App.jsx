@@ -98,7 +98,7 @@ const App = () => {
       <Steps/>
       <PricingCard/>
    <Workflow/>
-   <Footer/>
+   {/* <Footer/> */}
     </div>
   );
 };
