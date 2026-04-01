@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .container {
   max-width: 1200px;
@@ -11,4 +13,8 @@ ul, ol li {
 }
 a {
   text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
 }
