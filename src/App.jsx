@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Steps from "./components/steps/Steps";
 import PricingCard from "./components/pricingCard/PricingCard";
 import Workflow from "./components/workflow/Workflow";
+import Footer from "./components/footer/Footer";
 
 
 const App = () => {
@@ -97,6 +98,7 @@ const App = () => {
       <Steps/>
       <PricingCard/>
    <Workflow/>
+   <Footer/>
     </div>
   );
 };
