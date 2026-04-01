@@ -51,7 +51,7 @@ const App = () => {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen pb-20">
+    <div className="bg-gray-50 min-h-screen flex flex-col">
       <ToastContainer />
       <Navbar />
       <Banner />
@@ -98,7 +98,7 @@ const App = () => {
       <Steps/>
       <PricingCard/>
    <Workflow/>
-   {/* <Footer/> */}
+   <Footer/>
     </div>
   );
 };
